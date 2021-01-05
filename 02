@@ -1,0 +1,8 @@
+a = int(input('Escolha um número positivo ou negativo:\n'))
+
+if a > 0:
+    print('O número', a, 'ao quadrado é', a**2)
+elif a < 0:
+    print(a, 'é um número inválido')
+else:
+    print('Era pra escolher entre número positivo e negativo,',a,'não!')
