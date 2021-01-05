@@ -11,4 +11,4 @@ elif a < b:
     print(f'{b} é maior que {a}!')
     
 else:
-  print(f'{a} é igual a {b}')
+  print(f'Números iguais.')
