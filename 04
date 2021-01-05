@@ -1,0 +1,10 @@
+a = int(input('Escolha um número positivo ou negativo:\n'))
+
+if a > 0:
+    print(f'{a} foi o número escolhido.\n{a**2} é o mesmo número elevado ao quadrado.\n{a**0.5} é a raiz quadrada dele.')
+
+elif a < 0:
+    print('Erro!')
+
+else:
+    print('Zero não vale!')
