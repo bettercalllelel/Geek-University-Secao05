@@ -1,0 +1,10 @@
+a = int(input('Escolha um número positivo ou negativo:\n'))
+
+if a > 0:
+    print('A raiz quadrada de', a, 'é', a**0.5)
+
+elif a < 0:
+    print(a, 'ao quadrado é', a**2)
+
+else:
+    print('Novamente você fugiu dos termos da brincadeira!')
