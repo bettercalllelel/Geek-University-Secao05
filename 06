@@ -1,0 +1,16 @@
+a = int(input('Escolha um número:\n'))
+b = int(input('Escolha outro número:\n'))
+
+
+if a > b:
+    print(f'{a} é maior que {b}')
+    print(f'A diferença entre {a} e {b} é {a-b}')
+    if a == 7 and b == 1:
+      print(f'{a} a {b} FOI POUCO!')
+
+elif a < b:
+    print(f'{b} é maior que {a}!')
+    print(f'A diferença entre {b} e {a} é {b-a}')
+    
+else:
+  print(f'{a} é igual a {b}')
