@@ -1,0 +1,7 @@
+a = int(input('Escolha um número:\n'))
+
+if a % 2 == 0:
+    print(f'{a} é par!')
+
+else:
+    print(f'{a} é ímpar!')
