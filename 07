@@ -1,0 +1,14 @@
+# Já estava prevendo a possibilidade de ter zero como entrada nos outros exercícios.
+
+a = int(input('Escolha um número:\n'))
+b = int(input('Escolha outro número:\n'))
+
+
+if a > b:
+    print(f'{a} é maior que {b}')
+
+elif a < b:
+    print(f'{b} é maior que {a}!')
+    
+else:
+  print(f'{a} é igual a {b}')
