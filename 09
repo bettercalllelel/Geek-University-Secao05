@@ -1,5 +1,5 @@
-sal = int(input('Diga o salário do funcionário:\n'))
-emp = int(input('Diga o valor da parcela do empréstimo:\n'))
+sal = float(input('Diga o salário do funcionário:\n'))
+emp = float(input('Diga o valor da parcela do empréstimo:\n'))
 
 if emp < sal*0.20:
     print(f'Empréstimo concedido!')
