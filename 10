@@ -1,0 +1,11 @@
+sexo = int(input('Diga o sexo do avaliado: (1 para homem e 2 para mulher) \n'))
+alt = float(input('Diga a altura em metros:\n'))
+
+if sexo == 1:
+    print(f'O peso ideal para homem de altura {alt} é {(72.7*alt)-58}')
+
+elif sexo == 2:
+    print(f'O peso ideal para mulher de altura {alt} é {(62.1*alt)-44.7}')
+
+else:
+    print('Erro na escolha de gênero!')
