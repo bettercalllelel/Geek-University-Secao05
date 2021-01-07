@@ -1,0 +1,9 @@
+num = int(input('Escolha um número de três dígitos:\n'))
+
+if num>=0 and num<=999:
+
+    print(f'O número escolhido foi {num}.')
+    print(f'A soma dos elementos desse número é {(num//100%10)+(num//10%10)+(num//1%10)}.')
+
+else:
+    print('Número fora dos requisitos do sistema')
