@@ -1,0 +1,11 @@
+bmaior = float(input('Diga o tamanho da base maior:\n'))
+bmenor = float(input('Diga o tamanho da base menor:\n'))
+alt = float(input('Diga a altura do trapézio:\n'))
+
+area = ((bmaior + bmenor) * alt)/2
+
+if bmaior <= 0 or bmenor <= 0:
+    print('Trapézio inexistente!')
+
+else:
+    print(f'A área do trapézio é {area}')
