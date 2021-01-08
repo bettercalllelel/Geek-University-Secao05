@@ -1,0 +1,19 @@
+nt1 = int(input('Diga a nota do Trabalho de Laboratório:\n'))
+nt2 = int(input('Diga a nota da Avaliação Semestral:\n'))
+nt3 = int(input('Diga a nota do Exame Final:\n'))
+
+media = ((nt1*2) + (nt2*3) + (nt3*5))/10
+
+if media <= 2.9:
+    print(f'O aluno foi reprovado!')
+    print(f'Média final do aluno: {media}')
+
+elif media <= 4.9 and media <= 3:
+    print('Aluno em recuperação')
+    print(f'Média final do aluno: {media}')
+
+else:
+    if media > 10 :
+        media = 10
+    print('Aluno aprovado')
+    print(f'Média final do aluno: {media}')
