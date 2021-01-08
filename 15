@@ -1,0 +1,25 @@
+dia = int(input('Escolha um número de 1 a 7:\n'))
+
+if dia == 1:
+    print('O dia escolhido foi domingo!')
+
+elif dia == 2:
+    print('O dia escolhido foi segunda-feira!')
+
+elif dia == 3:
+    print('O dia escolhido foi terça-feira!')
+
+elif dia == 4:
+    print('O dia escolhido foi quarta-feira!')
+
+elif dia == 5:
+    print('O dia escolhido foi quinta-feira!')
+
+elif dia == 6:
+    print('O dia escolhido foi sexta-feira!')
+
+elif dia == 7:
+    print('O dia escolhido foi sábado!')
+
+else:
+    print('Entrada errada no terminal!')
