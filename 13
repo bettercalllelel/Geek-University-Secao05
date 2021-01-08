@@ -1,0 +1,13 @@
+media = (nt1 + nt2 + (nt3*2))/3
+
+if media >= 6:
+    print(f'O aluno foi aprovado!')
+    print(f'Média final do aluno: {media}')
+
+elif media >= 5 and media > 4.9:
+    print('Aluno em prova final')
+    print(f'Média final do aluno: {media}')
+
+else:
+    print('Aluno reprovado')
+    print('Média final do aluno:', media)
