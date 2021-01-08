@@ -1,0 +1,40 @@
+mês = int(input('Escolha um número de 1 a 12, para definir o mês:\n'))
+
+if mês == 1:
+    print('O mês escolhido foi Janeiro!')
+
+elif mês == 2:
+    print('O mês escolhido foi Fevereiro!')
+
+elif mês == 3:
+    print('O mês escolhido foi Março!')
+
+elif mês == 4:
+    print('O mês escolhido foi Abril!')
+
+elif mês == 5:
+    print('O mês escolhido foi Maio!')
+
+elif mês == 6:
+    print('O mês escolhido foi Junho!')
+
+elif mês == 7:
+    print('O mês escolhido foi Julho!')
+
+elif mês == 8:
+    print('O mês escolhido foi Agosto!')
+
+elif mês == 9:
+    print('O mês escolhido foi Setembro!')
+
+elif mês == 10:
+    print('O mês escolhido foi Outubro')
+
+elif mês == 11:
+    print('O mês escolhido foi Novembro!')
+
+elif mês == 12:
+    print('O mês escolhido foi Dezembro!')
+
+else:
+    print('Entrada errada no terminal!')
