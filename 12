@@ -1,0 +1,10 @@
+import math
+import cmath
+num = int(input('Escolha um número:\n'))
+
+if num>0:
+    print(f'O número escolhido foi {num}.')
+    print(f'O logaritmo de {num} é', math.log(num,2))
+
+else:
+    print('Número negativo!')
