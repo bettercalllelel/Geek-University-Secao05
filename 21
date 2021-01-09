@@ -1,0 +1,28 @@
+opcao = int(input('Diga a opção selecionada:\n 1 - Soma de 2 números;\n 2 - Diferença entre 2 números (maior pelo menor);\n 3 - Produto entre 2 números;\n 4 - Divisão entre 2 números (o denominador não pode ser zero).\n Opção: '))
+
+if opcao == 1:
+    a = int(input('Diga o primeiro valor a somar:\n'))
+    b = int(input('Diga o segundo valor a somar:\n'))
+    total = int(a)+int(b)
+    print(f'O resultado da soma de {a} e {b} é {total}.')
+
+elif opcao == 2:
+    a = int(input('Diga o primeiro valor a subtrair:\n'))
+    b = int(input('Diga o segundo valor a subtrair:\n'))
+    total = int(a)-int(b)
+    print(f'O resultado da subtração de {a} e {b} é {total}.')
+
+elif opcao == 3:
+    a = int(input('Diga o primeiro valor a multiplicar:\n'))
+    b = int(input('Diga o segundo valor a multiplicar:\n'))
+    total = int(a)*int(b)
+    print(f'O resultado da multiplicação de {a} e {b} é {total}.')
+
+elif opcao == 4:
+    a = int(input('Diga o primeiro valor a dividir:\n'))
+    b = int(input('Diga o segundo valor a dividir:\n'))
+    total = int(a)/int(b)
+    print(f'O resultado da divisão de {a} e {b} é {total}.')
+
+else:
+    print('Opção não encontrada.')
