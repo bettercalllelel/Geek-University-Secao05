@@ -1,0 +1,11 @@
+idade = int(input('Diga a idade do trabalhador:\n'))
+trab = int(input('Diga a quantidade de anos trabalhados:\n'))
+
+if idade >= 65 or trab >= 30:
+    print('Tem direito a se aposentar!')
+
+elif idade >= 60 and trab >= 25:
+    print('Pode se aposentar!')
+
+else:
+    print('Não pode se aposentar ainda.')
