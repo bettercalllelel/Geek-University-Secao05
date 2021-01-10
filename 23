@@ -1,0 +1,10 @@
+ano = int(input('Diga o ano a ser avaliado:\n'))
+
+if ano % 400 == 0 or ano % 4 == 0:
+    if ano % 100 != 0:
+        print('É bissexto!')
+    else:
+        print('Não é bissexto!')
+
+else:
+    print('Não é bissexto.')
