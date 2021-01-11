@@ -1,0 +1,14 @@
+km = float(input('Insira a quantidade de quilômetros a percorrer:\n'))
+gas = float(input('Insira a quantidade de litros de gasolina consumidos na viagem:\n'))
+
+cons = km/gas
+
+if cons < 8:
+    print(f'Venda o carro!\nO consumo foi de {cons}km/l')
+
+elif 8 <= cons <= 14:
+    print(f'O carro é econômico.\nO consumo foi de {cons}km/l.')
+
+else:
+    print(f'O Carro é super econômico.\nO consumo foi de {cons}km/l')
+    
