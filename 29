@@ -1,0 +1,62 @@
+perg = str(input('Deseja realizar a prova?\nDigite Sim caso queira:\n'))
+
+if perg == 'Sim':
+    a = int(input('Diga um número aleatório, menor que 100:\n'))
+    b = int(input('Diga outro número aleatório, menor que 100:\n'))
+    c = int(input('Diga outro número aleatório, menor que 100:\n'))
+    d = int(input('Diga outro número aleatório, menor que 100:\n'))
+    e = int(input('Diga outro número aleatório, menor que 100:\n'))
+    f = int(input('Diga outro número aleatório, menor que 100:\n'))
+    g = int(input('Diga outro número aleatório, menor que 100:\n'))
+    h = int(input('Diga outro número aleatório, menor que 100:\n'))
+    i = int(input('Diga outro número aleatório, menor que 100:\n'))
+    j = int(input('Diga outro número aleatório, menor que 100:\n'))
+    l = int(input('Diga outro número aleatório, menor que 100:\n'))
+    m = int(input('Diga outro número aleatório, menor que 100:\n'))
+    n = int(input('Diga outro número aleatório, menor que 100:\n'))
+    o = int(input('Diga outro número aleatório, menor que 100:\n'))
+    p = int(input('Diga outro número aleatório, menor que 100:\n'))
+    
+    print(f'Qual o resultado de {a} + {b}')
+    c = int(input(f'A resposta é:\n'))
+
+    if c == int(a) + int(b):
+        print('Um acerto!')
+        print(f'Qual o resultado de {d} + {e}')
+        f = int(input(f'A resposta é:\n'))
+
+        if f == int(d) + int(e):
+            print('Dois acertos!')
+            print(f'Qual o resultado de {g} + {h}')
+            i = int(input(f'A resposta é:\n'))
+
+            if i == int(g) + int(h):
+                print('Três acertos!')
+                print(f'Qual o resultado de {j} + {l}')
+                m = int(input(f'A resposta é:\n'))
+
+                if m == int(j) + int(l):
+                    print('Quatro acertos!')
+                    print(f'Qual o resultado de {n} + {o}')
+                    p = int(input(f'A resposta é:\n'))
+
+                    if p == int(n) + int(o):
+                        print('Cinco acertos!')
+
+                    else:
+                        print('Quatro acertos!')
+
+                else:
+                    print('Três acertos!')
+
+            else:
+                print('Dois acertos!')
+
+        else:
+            print('Um acerto.')
+
+    else:
+        print('Nenhum acerto.')
+
+else:
+    print('O aluno não está preparado para a prova.')
