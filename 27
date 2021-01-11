@@ -1,0 +1,19 @@
+idade = int(input('Campeonato de Natação!\nDiga a idade do competidor:\n'))
+
+if 5 <= idade <= 7:
+    print(f'Categoria Infantil A.')
+
+elif 8 <= idade <= 10:
+    print(f'Categoria Infantil B.')
+
+elif 11 <= idade <= 13:
+    print(f'Categoria Juvenil A.')
+
+elif 14 <= idade <= 17:
+    print(f'Categoria Juvenil B.')
+
+elif 18 <= idade:
+    print(f'Categoria Sênior.')
+
+else:
+    print(f'Não tem idade para participar.')
