@@ -1,0 +1,20 @@
+x = int(input('Diga o valor de x:\n'))
+y = int(input('Diga o valor de y:\n'))
+z = int(input('Diga o valor de z:\n'))
+
+op = str(input('Diga a média a ser calculada:\n(a) Geométrica;\n(b) Ponderada;\n(c) Harmônica;\n(d) Aritmética.\n'))
+
+if op == 'a':
+    print(f'A média geométrica é {(x*y*z)**0.3333333333333}.')
+
+elif op == 'b':
+    print(f'A média ponderada é {(x+(2*y)+(3*z))/6}.')
+
+elif op == 'c':
+    print(f'A média harmônica é {1/((1/x)+(1/y)+(1/z))}.')
+
+elif op == 'd':
+    print(f'A média aritmética é {(x+y+z)/3}')
+
+else:
+    print(f'Erro na escolha da média')
