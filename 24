@@ -1,0 +1,17 @@
+estado = str(input('Diga a sigla do estado a incidir ICMS:\n (MG, SP, RJ ou MS)\n'))
+valor = float(input('Diga o valor do produto:\n'))
+
+if estado == 'MG':
+    print(f'O valor final é R${valor*1.07}.')
+
+elif estado == 'SP':
+    print(f'O valor final é R${valor*1.12}.')
+
+elif estado == 'RJ':
+    print(f'O valor final é R${valor*1.15}.')
+
+elif estado == 'MS':
+    print(f'O valor final é R${valor*1.08}.')
+
+else:
+    print('Erro na escolha do estado.')
