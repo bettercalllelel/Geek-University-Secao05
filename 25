@@ -1,0 +1,21 @@
+a = float(input('Insira o valor de a:\n'))
+b = float(input('Insira o valor de b:\n'))
+c = float(input('Insira o valor de c:\n'))
+
+delta = (b ** 2) - ((4 * a) * c)
+
+xpos = (-b + (delta ** 0.5))/(2 * a)
+
+xneg = (-b - (delta ** 0.5))/(2 * a)
+
+if delta < 0:
+    print('Não existe raíz.')
+
+elif delta == 0:
+    print(f'A única raiz é {xpos}')
+
+elif delta > 0:
+    print(f'O valor das raízes é:\n Raiz de x positivo: {xpos}\n Raiz de x negativo: {xneg}')
+
+else:
+    print('Erro ao obter os valores')
