@@ -1,0 +1,33 @@
+nota = float(input('Diga a nota final do aluno para descobrir seu conceito:\n'))
+faltas = int(input('Diga a quantidade de faltas o aluno teve durante o ano:\n'))
+
+if nota < 4:
+    print(f'O conceito do aluno é E.')
+
+elif 4 <= nota <= 4.9:
+    if faltas <= 20:
+        print(f'O conceito do aluno é D.')
+
+    else:
+        print(f'O conceito do aluno é E.')
+
+elif 5 <= nota <= 7.4:
+    if faltas <= 20:
+        print(f'O conceito do aluno é C.')
+
+    else:
+        print(f'O conceito do aluno é D.')
+
+elif 7.5 <= nota <= 8.9:
+    if faltas <= 20:
+        print(f'O conceito do aluno é B.')
+
+    else:
+        print(f'O conceito do aluno é C.')
+
+else:
+    if faltas <= 20:
+        print(f'O conceito do aluno é A.')
+
+    else:
+        print(f'O conceito do aluno é B.')
