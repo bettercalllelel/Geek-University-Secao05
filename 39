@@ -1,0 +1,93 @@
+sal = float(input('Diga o valor do salário atual do funcionário:\n'))
+ano = int(input('Diga a quantidade de anos trabalhados pelo funcionário nesta empresa:\n'))
+
+
+if sal <= 500:
+    print(f'O funcionário recebeu um bônus de 25%.\nSeu salário agora é de R${sal*1.25}.')
+
+    if ano < 1:
+        print(f'Não há bônus a receber. Salário de R${sal*1.25}')
+
+    elif 1 <= ano <= 3:
+        print(f'Bônus de R$100,00. Valor total de {(sal*1.25)+100}')
+
+    elif 4 <= ano <= 6:
+        print(f'Bônus de R$200,00. Valor total de {(sal*1.25)+200}')
+
+    elif 7 <= ano <= 10:
+        print(f'Bônus de R$300,00. Valor total de {(sal*1.25)+300}')
+
+    else:
+        print(f'Bônus de R$500,00. Valor total de {(sal*1.25)+500}')
+
+elif sal <= 1000:
+    print(f'O funcionário recebeu um bônus de 20%.\nSeu salário agora é de R${sal * 1.2}.')
+
+    if ano < 1:
+        print(f'Não há bônus a receber. Salário de R${sal * 1.2}')
+
+    elif 1 <= ano <= 3:
+        print(f'Bônus de R$100,00. Valor total de {(sal * 1.2) + 100}')
+
+    elif 4 <= ano <= 6:
+        print(f'Bônus de R$200,00. Valor total de {(sal * 1.2) + 200}')
+
+    elif 7 <= ano <= 10:
+        print(f'Bônus de R$300,00. Valor total de {(sal * 1.2) + 300}')
+
+    else:
+        print(f'Bônus de R$500,00. Valor total de {(sal * 1.2) + 500}')
+
+elif sal <= 1500:
+    print(f'O funcionário recebeu um bônus de 15%.\nSeu salário agora é de R${sal * 1.15}.')
+
+    if ano < 1:
+        print(f'Não há bônus a receber. Salário de R${sal * 1.15}')
+
+    elif 1 <= ano <= 3:
+        print(f'Bônus de R$100,00. Valor total de {(sal * 1.15) + 100}')
+
+    elif 4 <= ano <= 6:
+        print(f'Bônus de R$200,00. Valor total de {(sal * 1.15) + 200}')
+
+    elif 7 <= ano <= 10:
+        print(f'Bônus de R$300,00. Valor total de {(sal * 1.15) + 300}')
+
+    else:
+        print(f'Bônus de R$500,00. Valor total de {(sal * 1.15) + 500}')
+
+elif sal <= 2000:
+    print(f'O funcionário recebeu um bônus de 10%.\nSeu salário agora é de R${sal * 1.1}.')
+
+    if ano < 1:
+        print(f'Não há bônus a receber. Salário de R${sal * 1.1}')
+
+    elif 1 <= ano <= 3:
+        print(f'Bônus de R$100,00. Valor total de {(sal * 1.1) + 100}')
+
+    elif 4 <= ano <= 6:
+        print(f'Bônus de R$200,00. Valor total de {(sal * 1.1) + 200}')
+
+    elif 7 <= ano <= 10:
+        print(f'Bônus de R$300,00. Valor total de {(sal * 1.1) + 300}')
+
+    else:
+        print(f'Bônus de R$500,00. Valor total de {(sal * 1.1) + 500}')
+
+else:
+    print(f'O funcionário não recebeu bônus.\nSeu salário ainda é de R${sal}.')
+
+    if ano < 1:
+        print(f'Não há bônus a receber. Salário de R${sal}')
+
+    elif 1 <= ano <= 3:
+        print(f'Bônus de R$100,00. Valor total de {sal + 100}')
+
+    elif 4 <= ano <= 6:
+        print(f'Bônus de R$200,00. Valor total de {sal + 200}')
+
+    elif 7 <= ano <= 10:
+        print(f'Bônus de R$300,00. Valor total de {sal + 300}')
+
+    else:
+        print(f'Bônus de R$500,00. Valor total de {sal + 500}')
