@@ -1,0 +1,20 @@
+com = float(input('Diga o valor de vendas realizadas pelo funcionário:\nR$'))
+
+if com >= 100000:
+    print(f'A comissão a receber é de R${700 + (com * 0.16)}.')
+
+elif 100000 > com >= 80000:
+    print(f'A comissão a receber é de R${650 + (com * 0.14)}.')
+
+elif 80000 > com >= 60000:
+    print(f'A comissão a receber é de R${600 + (com * 0.14)}.')
+
+elif 60000 > com >= 40000:
+    print(f'A comissão a receber é de R${550 + (com * 0.14)}.')
+
+elif 40000 > com >= 20000:
+    print(f'A comissão a receber é de R${500 + (com * 0.14)}.')
+
+else:
+    print(f'A comissão a receber é de R${400 + (com * 0.14)}.')
+    
