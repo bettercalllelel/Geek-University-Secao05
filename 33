@@ -1,0 +1,25 @@
+preco = float(input('Diga o preço a ser reajustado:\nR$'))
+
+if preco < 50:
+    preconovo = preco*1.05
+    print(f'O preço reajustado é R${preconovo}')
+
+elif 50 <= preco <= 100:
+    preconovo = preco*1.1
+    print(f'O preço reajustado é R${preconovo}')
+
+else:
+    preconovo = preco*1.15
+    print(f'O preço reajustado é R${preconovo}')
+
+if preconovo < 80:
+    print(f'O produto é barato!')
+
+elif 80 <= preconovo < 120:
+    print(f'O produto é normal!')
+
+elif 120 <= preconovo < 200:
+    print(f'O produto é caro!')
+
+else:
+    print(f'O produto é muito caro!')
