@@ -1,0 +1,32 @@
+peso = float(input('Diga o peso em quilos:\n'))
+alt = float(input('Diga a altura em metros:\n'))
+
+if alt < 1.2:
+    if peso < 60:
+        print('Classificação A.')
+
+    elif 60 <= peso <= 90:
+        print('Classificação D.')
+
+    else:
+        print('Classificação G.')
+
+elif 1.2 <= alt <= 1.7:
+    if peso < 60:
+        print('Classificação B.')
+
+    elif 60 <= peso <= 90:
+        print('Classificação E.')
+
+    else:
+        print('Classificação H.')
+
+else:
+    if peso < 60:
+        print('Classificação C.')
+
+    elif 60 <= peso <= 90:
+        print('Classificação F.')
+
+    else:
+        print('Classificação I.')
