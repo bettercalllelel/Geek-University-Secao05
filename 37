@@ -1,0 +1,22 @@
+hora = int(input('Entre com a quantidade de horas permanecidas:\n'))
+
+if hora == 1:
+    total = 1
+    print(f'O total é de R${total}')
+
+elif hora == 2:
+    total = 2
+    print(f'O total é de R${total}')
+
+elif hora == 3:
+    total = 3.4
+    print(f'O total é de R${total}')
+
+elif hora == 3:
+    total = 4.8
+    print(f'O total é de R${total}')
+
+else:
+    total = float(4.8) + (hora*2)
+    print(f'O total é de R${total}')
+    
