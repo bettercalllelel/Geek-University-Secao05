@@ -1,0 +1,11 @@
+custo = float(input('Diga o custo de fábrica do automóvel:\nR$'))
+
+if custo < 12000:
+    print(f'O valor total é de {custo*1.5}.')
+
+elif 12000 <= custo <= 25000:
+    print(f'O valor total do automóvel é {custo*1.25}')
+
+else:
+    print(f'O valor total do automóvel é {custo*1.35}')
+    
